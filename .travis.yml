@@ -1,0 +1,7 @@
+language: rust
+rust: 0.12.0
+install:
+- make
+- sudo make install
+script:
+- vagga vagga-in-vagga-test
